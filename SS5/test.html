@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <form id="register-form">
+    <input type="text" name="email" placeholder="email">
+
+    <button type="submit">Register</button>
+  </form>
+
+
+  <script>
+    let form = document.getElementById("register-form");
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      // In ra email người dùng nhập vào.
+      console.log(form.email.value);
+    })
+  </script>
+</body>
+
+</html>
