@@ -1,0 +1,8 @@
+#carouselExampleCaptions {
+  height: 600px;
+}
+
+
+#carouselExampleCaptions .carousel-inner .carousel-item {
+  height: 600px;
+}
