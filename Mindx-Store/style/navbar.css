@@ -145,3 +145,12 @@
   color: #fff;
   position: relative;
 }
+
+
+.contact {
+  align-items: center;
+}
+
+.contact p {
+  margin: 0px;
+}
