@@ -78,6 +78,7 @@ for (let key of getProducts) {
               <span class="old-price">${key.oldPrice}</span>
               <span class="new-price">${key.newPrice}</span>
             </h6>
+            <button class="btn btn-add-to-cart">Add to cart</button>
           </div>
         </div>
 `

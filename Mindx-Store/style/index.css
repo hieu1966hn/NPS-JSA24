@@ -62,3 +62,51 @@
   display: flex;
   justify-content: space-between;
 }
+
+
+/* Style các product */
+#products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 22%;
+  margin: 15px;
+}
+
+.card .image-container img {
+  /* width: 235px;
+  height: 235px; */
+  width: 100%;
+}
+
+.card .container {
+  padding-top: 10px;
+  border-top: 1px solid rgb(231, 227, 227);
+
+  position: relative;
+}
+
+.stars i {
+  color: #f7bc00;
+}
+
+.card .old-price {
+  text-decoration: line-through;
+  font-size: smaller;
+}
+
+.card .new-price {
+  color: rgb(28, 105, 138);
+
+  font-size: larger;
+  font-weight: bold;
+}
+
+
+.btn-add-to-cart {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}

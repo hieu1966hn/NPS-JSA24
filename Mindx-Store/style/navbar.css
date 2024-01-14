@@ -118,7 +118,7 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  box-shadow: 3px 3px 3px 6px #808080;
+  /* box-shadow: 3px 3px 3px 6px #808080; */
   z-index: 10;
   transition: 0.2s;
 }
